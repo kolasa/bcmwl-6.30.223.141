@@ -1,0 +1,13 @@
+diff --git a/src/include/linuxver.h b/src/include/linuxver.h
+index 5548e71..1f1255c 100644
+--- a/src/include/linuxver.h
++++ b/src/include/linuxver.h
+@@ -169,7 +169,7 @@ typedef irqreturn_t(*FN_ISR) (int irq, void *dev_id, struct pt_regs *ptregs);
+ #define __devexit
+ #endif
+ #ifndef __devinit
+-#define __devinit	__init
++#define __devinit
+ #endif
+ #ifndef __devinitdata
+ #define __devinitdata
